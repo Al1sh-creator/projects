@@ -63,8 +63,10 @@ export default function CustomCursor() {
       
       {/* Hide standard cursor */}
       <style jsx global>{`
-        body, a, button, .crystal-card {
-          cursor: none !important;
+        @media (min-width: 768px) {
+          body, a, button, .crystal-card {
+            cursor: none !important;
+          }
         }
       `}</style>
     </div>
