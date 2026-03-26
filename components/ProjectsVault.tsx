@@ -64,7 +64,7 @@ export default function ProjectsVault() {
       <nav className="fixed top-0 w-full z-50 px-8 py-10 mix-blend-difference">
         <div className="max-w-7xl mx-auto flex justify-between items-end">
           <a
-            href="https://portfolio-galaxy.vercel.app"
+            href="https://portfolio-galaxy-five.vercel.app/"
             className="group flex flex-col gap-1 text-white/40 hover:text-white transition-all duration-300"
           >
             <span className="technical-mono text-[8px]">Esc // System</span>
