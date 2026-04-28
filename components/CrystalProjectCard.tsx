@@ -115,7 +115,7 @@ export default function CrystalProjectCard({ project }: { project: Project }) {
 
                 <div className="mt-12 flex flex-col gap-4">
                    {project.github && (
-                     <a href={project.github} className="flex items-center justify-between p-4 bg-white/5 border border-white/5 hover:border-white/20 transition-all rounded-sm group">
+                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between p-4 bg-white/5 border border-white/5 hover:border-white/20 transition-all rounded-sm group">
                         <span className="technical-mono text-[10px]">Source Repository</span>
                         <Github size={16} className="text-white/40 group-hover:text-white" />
                      </a>

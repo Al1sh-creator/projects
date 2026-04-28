@@ -12,7 +12,7 @@ const PROJECTS = [
     title: "Athenify",
     description: "An AI-powered debate platform where users can engage in structured arguments with dynamic AI personas.",
     tags: ["Next.js", "Gemini AI", "TailwindCSS"],
-    github: "http://github.com",
+    github: "https://github.com/Al1sh-creator/athenify2",
     color: "#00f2ff",
     size: "bento-large"
   },
@@ -21,7 +21,7 @@ const PROJECTS = [
     title: "Harmonium",
     description: "A digital musical instrument application simulating a traditional harmonium.",
     tags: ["React", "Web Audio API", "GSAP"],
-    github: "http://github.com",
+    github: "https://github.com/Al1sh-creator/harmonium",
     link: "https://harmonium-one.vercel.app/",
     color: "#ff00ea",
     size: "bento-medium"
@@ -31,7 +31,7 @@ const PROJECTS = [
     title: "Payment Tracker",
     description: "A financial dashboard for tracking payments and analytics with real-time visualization.",
     tags: ["React", "D3.js", "Firebase"],
-    github: "http://github.com",
+    github: "https://github.com/Al1sh-creator/payment-tracker",
     color: "#7000ff",
     size: "bento-small"
   },
@@ -40,7 +40,7 @@ const PROJECTS = [
     title: "The Stone Tablets",
     description: "A prehistoric-themed blog featuring a 3D rotating tablet and archive filtering.",
     tags: ["Next.js", "Three.js", "Markdown"],
-    github: "http://github.com",
+    github: "https://github.com/Al1sh-creator/blog",
     color: "#f49d25",
     size: "bento-medium"
   },
@@ -49,7 +49,7 @@ const PROJECTS = [
     title: "Project Cosmos",
     description: "The core 3D portfolio universe connecting all digital artifacts.",
     tags: ["Three.js", "WebGL", "GSAP"],
-    github: "http://github.com",
+    github: "https://github.com/Al1sh-creator/portfolio-galaxy",
     color: "#00ffcc",
     size: "bento-small"
   }
