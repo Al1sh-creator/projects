@@ -120,10 +120,12 @@ export default function CrystalProjectCard({ project }: { project: Project }) {
                         <Github size={16} className="text-white/40 group-hover:text-white" />
                      </a>
                    )}
-                   <a href="#" className="flex items-center justify-between p-4 bg-white/5 border border-white/5 hover:border-white/20 transition-all rounded-sm group">
-                      <span className="technical-mono text-[10px]">Launch Deployment</span>
-                      <ExternalLink size={16} className="text-white/40 group-hover:text-white" />
-                   </a>
+                   {project.link && (
+                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between p-4 bg-white/5 border border-white/5 hover:border-white/20 transition-all rounded-sm group">
+                        <span className="technical-mono text-[10px]">Launch Deployment</span>
+                        <ExternalLink size={16} className="text-white/40 group-hover:text-white" />
+                     </a>
+                   )}
                 </div>
               </div>
 

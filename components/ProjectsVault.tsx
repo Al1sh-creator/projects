@@ -22,6 +22,7 @@ const PROJECTS = [
     description: "A digital musical instrument application simulating a traditional harmonium.",
     tags: ["React", "Web Audio API", "GSAP"],
     github: "http://github.com",
+    link: "https://harmonium-one.vercel.app/",
     color: "#ff00ea",
     size: "bento-medium"
   },
